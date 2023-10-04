@@ -1,6 +1,6 @@
 
 html{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 /* *Header bölümü Css başlangıç */
 
 header{
-    background-color:blanchedalmond;
+    background-color:#c1c1c1;
     width: 100%;
     height: 100%;
     margin-bottom: 1.4rem;
@@ -50,17 +50,45 @@ a:hover{
         transition: 0.6s;
      }
 
-
-
-
-
 /* *Header bölümü Css bitiş */
 
-div{
-    background-color: grey;
+
+/* !Main Content Css Başlangıç */
+
+.main-content{
+    display: flex;
     width: 100%;
-    height: 20rem;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
 }
+
+.main-content .foto{
+    width: 30%;
+    height: 100%;
+}
+
+.main-content img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+
+}
+.main-content .aboutMe{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main-content .aboutMe > *{
+    margin-left: 2rem;
+    
+}
+
+/* !Main Content Css Bitiş */
 
 footer{
     background-color: black;
