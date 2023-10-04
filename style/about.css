@@ -22,19 +22,17 @@ header{
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 header h1 {
     text-align: center;
-    
-
 }
 header ul {
     display: flex;
-    width: 100%;
+    width: 50%;
     height: 100%;
-    align-items: center;
-    margin-left: 2rem;    
+    align-items: center;  
 }
 
 a{
