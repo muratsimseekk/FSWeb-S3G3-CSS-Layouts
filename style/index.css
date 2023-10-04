@@ -7,7 +7,7 @@ body {
   margin: 0.5rem;
   background-color: #ececec;
   color: #414141;
-  width: 83.6rem;
+  width: 100%;
   box-sizing: border-box;
 }
 
@@ -18,6 +18,7 @@ header {
   flex-direction: column;
   width: 100½;
   background-color: #c1c1c1;
+  flex-wrap: wrap;
 }
 
 header .header-h {
@@ -49,7 +50,11 @@ a:hover {
   color: white;
   transition: 0.6s;
 }
+
+
 /* !Header Kısmı Css ler bitiş. */
+
+
 
 /* * Top-content Cssler başlangıç  */
 
@@ -60,6 +65,8 @@ a:hover {
   display: flex;
   height: 22rem;
   justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .top-content .imgCon {
@@ -93,7 +100,6 @@ a:hover {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  box-sizing: border-box;
   width: 100%;
   height: 100%;
   margin-top: 1.5rem;
@@ -131,6 +137,8 @@ a:hover {
 }
 
 /* *Middle content top Css Bitiş */
+
+
 
 /* / Middle Content Bottom Css Başlangıç */
 
@@ -176,11 +184,15 @@ a:hover {
 
 /* / Middle Content Bottom Css Bitiş */
 
+
+
 /* !Footer Css Başlangıç */
 
 footer {
   background-color: #c1c1c1;
   display: flex;
+  width: 100%;
+  height: 100%;
   flex-direction: column;
   align-items: center;
   margin-top: 1.5rem;
