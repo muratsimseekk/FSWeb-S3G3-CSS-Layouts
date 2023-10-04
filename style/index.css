@@ -63,17 +63,29 @@ a:hover {
 }
 
 .top-content .imgCon{
-    background-color: red;
     height: 100%;
     width: 40%;
 }
 
-.top-content .info{
-    background-color: yellow;
+.top-content .imgCon img{
+    width: 100%;
     height: 100%;
-    width: 50%;
 }
 
+.top-content .info{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    margin-right: 2rem;
+}
+.top-content .info > *{
+    margin-left: 4rem;
+    font-size: 1.2rem;
+}
 
 /* *Middle content top Css Başlangıç */
 
