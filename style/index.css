@@ -35,9 +35,7 @@ header .header-list {
   list-style-type: none;
 }
 
-.header-list ul li {
-  background-color: white;
-}
+
 a {
   text-decoration: none;
   color: #414141;
