@@ -1,1 +1,53 @@
 /* CSS stillerinizi buraya girin */
+body{
+    /* font-family: 'Chelsea Market', cursive;
+    font-family: 'Pixelify Sans', cursive;
+    font-family: 'Roboto Mono', monospace;   */
+    font-family: 'Mulish', sans-serif;
+    margin: 0.5rem;
+    background-color:#ECECEC  ;
+    color: #414141;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100½;
+    background-color: #C1C1C1;
+    margin: 0.8rem 0.3rem ;
+}
+
+
+
+header .header-h{
+    margin-left: 6rem;
+}
+
+header .header-list{
+    margin-left: 3rem;
+}
+
+.header-list ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.header-list ul li {
+    
+    background-color: white;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #414141;
+    padding: 0.4rem;
+    border: 0.15rem solid black;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.6s;
+}

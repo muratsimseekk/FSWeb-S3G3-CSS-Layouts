@@ -23,11 +23,11 @@ Portföy web siteleri, çalışmalarınızı arkadaşlarınıza, ailenize ve gel
 
 Aşağıdaki adımları takip edin.:
 
-- [ ] Repoyu forklayın ve klonlayın.
-- [ ] BRANCH OLUŞTURMAYIN. Güncellemelerinizi main/master'a pushlayacaksınız.
-- [ ] konsoldan repo klasörünüze girin ve VS Code'u açmak için `code .` girin.
-- [ ] VS Code'un sol tarafındaki Eklentiler bölümünden Live Server eklentisini indirin. Eklenti yüklendikten sonra sağ altta bulunan "Go Live" butonuna basarak HTML dosyanızı çalıştırabilirsiniz.
-- [ ] Çalışmanızı düzenli commitlerle main branch'e aktarın. 
+- [+] Repoyu forklayın ve klonlayın.
+- [+] BRANCH OLUŞTURMAYIN. Güncellemelerinizi main/master'a pushlayacaksınız.
+- [+] konsoldan repo klasörünüze girin ve VS Code'u açmak için `code .` girin.
+- [+] VS Code'un sol tarafındaki Eklentiler bölümünden Live Server eklentisini indirin. Eklenti yüklendikten sonra sağ altta bulunan "Go Live" butonuna basarak HTML dosyanızı çalıştırabilirsiniz.
+- [+] Çalışmanızı düzenli commitlerle main branch'e aktarın. 
  
 ### Görev 2: Minimum Uygulanabilir Ürün
 
