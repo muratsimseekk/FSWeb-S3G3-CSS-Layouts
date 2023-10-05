@@ -7,7 +7,8 @@ body {
   margin: 0.5rem;
   background-color: #ececec;
   color: #414141;
-  width: 100%;
+  width: 60%;
+  margin: auto;
   box-sizing: border-box;
 }
 
@@ -53,12 +54,15 @@ a:hover {
 /* !Header Kısmı Css ler bitiş. */
 
 
+section{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /* * Top-content Cssler başlangıç  */
 
 .top-content {
   margin-top: 1.5rem;
-  box-sizing: border-box;
   width: 100%;
   display: flex;
   height: 22rem;
@@ -85,7 +89,6 @@ a:hover {
   justify-content: center;
   align-items: flex-start;
   box-sizing: border-box;
-  margin-right: 2rem;
 }
 .top-content .info > * {
   margin-left: 4rem;
@@ -108,6 +111,7 @@ a:hover {
   width: 20%;
   height: 16rem;
   display: flex;
+  flex-basis: 250px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -154,17 +158,18 @@ a:hover {
     border-radius: 1rem;
     width: 20%;
     height: 16rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background: rgb(146, 146, 146);
-    background: linear-gradient(
-      273deg,
-      rgba(146, 146, 146, 0.8995973389355743) 1%,
-      rgba(124, 124, 124, 1) 15%,
-      rgba(218, 218, 218, 1) 87%
-    );
+    
+}
+.middle-content-bottom .card > img{
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  object-position:initial;
+  border-radius: 1rem;
+  transition: 0.4s ease-out ;
+  opacity: 0.8;
+
 }
 .middle-content-bottom .card:hover {
     background: rgb(146, 146, 146);
@@ -216,3 +221,53 @@ footer .button-class {
 }
 
 /* !Footer Css Bitiş */
+
+
+@media(max-width:1000px){
+  .top-content{
+    width: 70%; 
+
+  }
+  .top-content{
+    width: 70%;
+  }
+  .top-content .info{
+    width: 70%;
+    height: 100%;
+  }
+
+  .middle-content-top{
+    width: 70%;
+  }
+}
+
+
+
+
+
+
+@media(max-width: 800px)
+{
+  .top-content{
+    width: 80%; 
+
+  }
+
+  .top-content{
+    width: 80%;
+  }
+   .top-content .info
+    width: 60%;
+    height: 100%;
+  }
+
+  .middle-content-top{
+    width: 80%;
+  }
+   
+
+
+
+
+
+}
